@@ -36,7 +36,7 @@ export const Courses= () => {
         <h2 className='bg-gradient-to-r from-purple-400 via-green-400 to-green-500 bg-clip-text text-transparent text-left text-[32px] mt-[16px] font-semibold' >Best Country to Study</h2>
         <p className='text-[15px] text-[#64748b] text-left mb-[56px] text-wrap'>At [Your Company Name] , we offer a range of specialized training and courses designed to help you succeed in your academic and professional goals. Our offerings include:
 </p></div>
-        <div className='flex justify-center md:justify-start gap-[20px] flex-wrap'>
+        <div className='flex justify-center  gap-[20px] flex-wrap'>
            
             {data.map((item, index) => (
                 <Course_card 
