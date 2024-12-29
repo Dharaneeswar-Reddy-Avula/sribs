@@ -28,13 +28,13 @@ export const Country = () => {
     ];
 
     return (
-        <div className='flex flex-col py-[50px] px-[20px]  bg-[url("./assets/images/map.svg")] bg-cover bg-center '>
+        <div className='flex flex-col py-[70px] bg-[url("./assets/images/map.svg")] bg-cover bg-center '>
         <span className='text-green-500 font-semibold text-[18px] text-center'>Study in Country</span>
-        <h2 className='text-white text-center text-[32px] mt-[16px] font-semibold' >Best Country to Study</h2>
+        <span className='text-center text-[32px] mt-[16px] font-semibold bg-gradient-to-r from-purple-900 via-green-200 to-green-500 bg-clip-text text-transparent' >Best Country to Study</span>
         <p className='text-[15px] text-[#64748b] text-center mb-[56px]'>Choosing the best country to study depends on your personal goals and preferences.
 
 </p>
-        <div className='flex justify-center gap-[10px] flex-wrap'>
+        <div className='flex justify-center gap-[20px] flex-wrap px-[12px]'>
            
             {data.map((item, index) => (
                 <Country_card 

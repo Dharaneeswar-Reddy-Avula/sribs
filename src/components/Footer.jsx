@@ -5,7 +5,7 @@ import logo from '../assets/images/geeks-logo.svg'
 export const Footer = () => {
   return (
     <footer>
-    <div className='flex flex-wrap flex-col md:flex-row p-[10px] justify-center gap-[50px] text-[#647488] border-y-[1px] py-[50px] border-y-[#647488]'>
+    <div className='flex flex-wrap lg:flex-nowrap flex-col md:flex-row p-[10px]  gap-[50px] text-[#647488] border-y-[1px] py-[50px] border-y-[#647488]'>
         <div className="logo w-[270px] flex flex-col gap-[20px]">
             <div className="logo-img">
             <img src={logo}/>
@@ -61,9 +61,9 @@ export const Footer = () => {
            
         </div>
     </div>
-    <div className="copy-rights text-[#647488] flex flex-col md:flex-row justify-between px-[20px] pt-[16px] pb-[50px]">
-        <span className='text-[#647488]'>&copy; 2024 Geeks themes.Powerd Codescandy</span>
-        <ul className='flex gap-[20px]'>
+    <div className="copy-rights text-[#647488] flex flex-col md:flex-row justify-center md:justify-between px-[20px]  gap-[20px] pt-[16px] pb-[50px]">
+        <span className='text-[#647488] text-center md:text-left'>&copy; 2024 Geeks themes.Powerd Codescandy</span>
+        <ul className='flex gap-[20px] flex-wrap justify-center'>
         <li>Terms of use</li>
         <li>Cookies Settings</li>
         <li>Privacy Policy</li>

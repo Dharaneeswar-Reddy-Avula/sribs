@@ -2,3 +2,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@keyframes moveup {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+.gradient-border {
+    border-width: 4px;
+    border-image: linear-gradient(to right, #6b46c1, #68d391, #48bb78) 1;
+  }

@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export const Course_card = (props) => {
   return (
-    <div className='p-[20px] w-[300px]  border-[1px] rounded-lg bg-[#1e293b]'>
+    <div className='p-[20px] md:w-[250px]  border-[1px] rounded-lg bg-[#1e293b]'>
       {/* If you have an image, you can uncomment and use it */}
       <img src={props.image} className='rounded-lg w-full mb-[30px]'/>
       

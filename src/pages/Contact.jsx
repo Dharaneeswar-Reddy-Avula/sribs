@@ -2,10 +2,10 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <div className='flex flex-col lg:flex-row  xl:mx-[50px] p-[20px] md:p-[40px] gap-[30px]'>
+    <div className='flex flex-col lg:flex-row  xl:mx-[20px] py-[20px] md:p-[40px] gap-[30px]'>
         <div className="getin-touch lg:w-1/2 py-[50px]">
             <span className='text-green-500 font-semibold text-[18px]'>Contact</span>
-            <h2 className='text-white mt-[16px] text-[32px] font-semibold'>Get in Touch With Us</h2>
+            <h2 className='bg-gradient-to-r from-purple-500 via-green-400 to-green-500 bg-clip-text text-transparent mt-[16px] text-[32px] font-semibold'>Get in Touch With Us</h2>
             <p className='text-[#647488] mb-[40px]'>We're here to help you achieve your study goals and answer any questions you may have. Reach out to us through the following channels:</p>
             <div className="card-bodys flex flex-col md:flex-row gap-[20px]">
             <div className="card-body p-[24px] bg-[#1e293b] border-[1px] rounded-lg md:w-[300px] border-[#647488]">
@@ -50,7 +50,7 @@ export const Contact = () => {
                     <label htmlFor="message" className='mb-[8px] text-[#64748b]'>Message <span className='text-[red]'>*</span></label>
                     <textarea name="message" className='bg-[#0b1324] py-[8px] px-[16px] rounded-lg outline-[#754ffe] outline-[3px]'></textarea>
                     </div>
-                    <button className='bg-[#754ffe] h-[50px] w-[155px] py-[12px] px-[20px] rounded-md text-white font-semibold mt-[20px] ml-[20px]'>Send Enquiry</button>
+                    <button className='bg-gradient-to-r from-purple-500 via-purple-500 50% via-green-400 80% to-green-300 h-[50px] w-[155px] py-[12px] px-[20px] rounded-md text-black font-bold text-[18px]  mt-[20px] ml-[20px]'>Send Enquiry</button>
                 </div>
             </div>
         </div>
